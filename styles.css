@@ -6,11 +6,12 @@ main {
   padding: 5px;
 }
 
-h1 {
+header h1 {
   text-align: center;
 }
-h2 {
+section h2:first-of-type {
   margin-left: 10px;
+  text-decoration: underline;
 }
 
 section {
@@ -65,4 +66,21 @@ section {
 
 .Itallic {
   font-style: italic;
+}
+/*text styles*/
+.h1style {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.h2style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+pstyle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
